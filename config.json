@@ -1,0 +1,14 @@
+{
+  "receiver": {
+    "host": "localhost",
+    "port": 40777,
+    "useSsl": true,
+    "trustAll": false
+  },
+  "sensorId": "8044ae80-2f1a-4eaf-b8ea-c91de19ec2cb",
+  "interval": 15000,
+  "credentials": {
+    "connectorId": "5970abde-0fee-4c12-8b50-ca16011d8b36",
+    "connectorKey": "<SECRET>"
+  }
+}

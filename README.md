@@ -73,6 +73,11 @@ your UrbanPulse installation.
 Once your connector is configured you can build and run the connector with following command.
 ```mvn package exec:java```
 
+## Include jks file for communicating with the OUP Inbound 
+Copy the jks file from the package/directory of OUP Core for the HTTPInbound Verticle. This path of the jks file is included as an argument in the pom.xml file. 
+
+![image](https://user-images.githubusercontent.com/102675978/171160103-debc7eeb-3f58-4689-87fb-72df57d54b52.png)
+
 
 ## See the events sent by the Connector
 To check whether UrbanPulse is receiving and processing incoming events properly, you can create a 
@@ -103,3 +108,4 @@ You should see something like
 ```
 {"_headers":{"eventType":"DKSRExampleEventType"},"statementName":"DKSRExampleEventTypeStatement","value":0.38377175650459394,"timestamp":"2022-05-27T11:04:37.832+0000","SID":"8044ae80-2f1a-4eaf-b8ea-c91de19ec2cb"}
 ```
+As per th config.json file, these events&JSON Data sets can be seen coming into the OUP Persistence and Outbound module every 15 seconds

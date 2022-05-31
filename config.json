@@ -1,14 +1,14 @@
-{
+{ //all these details are necessary to be included
   "receiver": {
     "host": "localhost",
-    "port": 40777,
-    "useSsl": true,
+    "port": 40777, //use this port number to connect to the Inbound Verticle of the OUP COre
+    "useSsl": true, //Needed since the communication between the Vertx Verticles is secured via SSL certificates
     "trustAll": false
   },
-  "sensorId": "8044ae80-2f1a-4eaf-b8ea-c91de19ec2cb",
-  "interval": 15000,
+  "sensorId": "34b01194-5a3e-49c4-a7b1-e1d292cf83de", //SensorID created via OUPManagement
+  "interval": 15000, //Interval in milliseconds at which the conector here would publish the data to the OUP Core
   "credentials": {
-    "connectorId": "5970abde-0fee-4c12-8b50-ca16011d8b36",
-    "connectorKey": "<SECRET>"
+    "connectorId": "3d031303-41e3-4eec-b92c-0c4246d27ac7", // Copy the ConnectorID created from the OUPManagementAPI UI
+    "connectorKey": "MUNEJr9M2d94UOZ//FKbhGeIQwAocaa8lHkA9IJVC4o=" // Copy the ConnectorKey created from the OUPManagementAPI UI
   }
 }

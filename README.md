@@ -1,4 +1,5 @@
-![DKSR Logo](https://github.com/DKSR-Data-Competence-for-Cities-Regions/Pictures-Repo/blob/6eaceb91616862ef786ab0ef132f0f954c167ed1/DKSR%20logo.png)
+![DKSR-logo](https://user-images.githubusercontent.com/102658834/171163305-cdd99910-1b93-4d74-be88-7c1d23fdcf0d.png)
+
 # DKSR Connector Example
 
 ## Prerequisites
